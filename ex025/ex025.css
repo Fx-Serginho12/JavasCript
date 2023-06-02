@@ -1,0 +1,34 @@
+body{
+    background-color:#6fd6ff;
+    text-align: center;
+}
+button{
+    box-shadow: 2px 3px 2px black;
+}
+.div-1{
+    box-shadow: 4px 5px 2px black;
+    border-radius: 5px 10px ;
+    padding: 40px;
+    background-color: white;
+    color: black;
+}
+.res{
+    color: black;
+}
+.res{
+    color: black;
+}
+h1{
+    color: white;
+}
+.Sesi{
+    color: white;
+}
+.imagem{
+  width: 200px;
+  background-color: white;
+}
+img{
+    width: 197px;
+    display: inline-block;
+}

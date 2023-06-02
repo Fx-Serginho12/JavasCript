@@ -1,0 +1,30 @@
+body{
+    background-color:mediumblue;
+    color:black;
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 4px 5px 2px black;
+    border-radius: 5px 10px ;
+    background-color: white;
+    padding: 70px;
+}
+.verso{
+    display: block;
+    margin-block-start: 2em ;
+    margin-block-end: 2em;
+    margin-inline-end: 3px;
+    font-style:unset;
+    color: blue;
+    background-color: white;
+}
+button{
+    background-color: blue;
+    color: white;
+}
+.Time{
+    background-color: blue;
+    color: white;
+}

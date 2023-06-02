@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="ex026.css">
+    <script defer     src="ex026.js"></script>
+</head>
+<body>
+     <h1>
+        Cadastro de Usuário
+     </h1>
+
+    <div class="div-1">
+        <label class="aluno">Nome</label>
+        <input type="text" id="nome" placeholder="Digite o seu nome">
+        <br><br>
+        <label class="aluno">Usuário</label>
+        <input type="text" id="login" placeholder="Digite o seu login">
+        <br><br>
+        <label class="aluno">Senha</label>
+        <input type="password" id="senha" placeholder="Digite a senha">
+        <br><br>
+        <label class="aluno"> Confirme senha</label>
+        <input type="password" id="confirmeSenha" placeholder="Confirme sua senha">
+        <br><br>
+        <button onclick="botaoEntrar()">Cadastrar Usuário</button>
+     <br>
+     <h1 class="res">
+        Lista de Usuários Cadastrads
+     </h1>
+     <div id="indicado">
+     <p  id="resultado" class="resultado"></p></div>
+    </div>
+    <footer>
+        <p class="Sesi">
+            Sesi/Senai - Curso Desenvolvimento de Sistemas
+        </p>
+</body>
+</html>
